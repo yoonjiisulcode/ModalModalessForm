@@ -11,7 +11,12 @@ namespace ModalModalessForm
 {
     public partial class FormModaless : Form
     {
-        public FormModaless()
+        public string Title
+        {
+            set { this.Text = value; }
+        }
+
+    public FormModaless()
         {
             InitializeComponent();
         }
